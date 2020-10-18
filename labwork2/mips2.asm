@@ -1,6 +1,6 @@
 .data
 arrayA: .word  -5 42 5 -6 -1 3
-arrayB: .space 12 # 6 элементов, в каждом элементе 2 символа по 1 байта каждый символ, 6*2*4 = 48
+arrayB: .space 12
 size: .word 6 
 no_neg_msg: .asciiz "There is no negative elements\n"
 no_zeros_msg: .asciiz "There is no zero elements\n"

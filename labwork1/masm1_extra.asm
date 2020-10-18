@@ -8,10 +8,10 @@
  includelib \masm32\lib\kernel32.lib
  .data
 MEM1 db "1" 
-str1 db "Результат", 0
-str2 db "Переменная является цифрой", 0
-str3 db "Переменная является заглавной латинской буквой", 0
-str4 db "Переменная является строчной латинской буквой", 0
+str1 db "result", 0
+str2 db "variable is number", 0
+str3 db "variable is uppercase latin letter", 0
+str4 db "variable is lowercase latin letter", 0
  .code
 start:
 MOV AL, MEM1
